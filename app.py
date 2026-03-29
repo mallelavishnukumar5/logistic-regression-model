@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import pickle
-import os
 
 # -------- PAGE SETTINGS --------
 st.set_page_config(
@@ -60,9 +59,7 @@ st.markdown('<p class="title">🧠 AI-Based Diabetes Prediction System</p>', uns
 st.markdown('<p class="subtitle">Enter patient health parameters to predict diabetes risk using Machine Learning</p>', unsafe_allow_html=True)
 
 # -------- LOAD MODEL --------
-#loaded_model = pickle.load(open("vlf.pkl", "rb"))
-file_path = os.path.join(os.path.dirname(__file__), "vlf.pkl")
-loaded_model = pickle.load(open(file_path, "rb"))
+loaded_model = pickle.load(open("vlf.pkl", "rb"))
 
 # -------- SIDEBAR --------
 st.sidebar.header("🩺 Patient Details")
