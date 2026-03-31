@@ -20,7 +20,7 @@ st.markdown("""
 
 /* Sidebar background */
 [data-testid="stSidebar"] {
-    background-color: #eaf2ff;
+    background-color:#1b3f7a;
 }
 
 /* Optional: make text darker */
