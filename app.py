@@ -4,7 +4,7 @@ import pickle
 
 # -------- PAGE SETTINGS --------
 st.set_page_config(
-    page_title="AI Diabetes Prediction",
+    page_title="AI DIABETES PREDICTION",
     page_icon="🧠",
     layout="wide"
 )
