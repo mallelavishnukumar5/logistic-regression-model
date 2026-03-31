@@ -15,7 +15,7 @@ st.markdown("""
 
 /* Main app background */
 [data-testid="stAppViewContainer"] {
-    background-color: #f4f8ff;
+    background-color: #212a36;
 }
 
 /* Sidebar background */
@@ -42,7 +42,7 @@ body {
 }
 
 .info-box{
-    background-color:#eef5ff;
+    background-color:#0a1a30;
     padding:25px;
     border-radius:10px;
     margin-bottom:20px;
